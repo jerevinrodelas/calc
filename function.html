@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="function.js"></script>
+    <title>FUNCTION CALCULATOR</title>
+</head>
+<body>
+        
+        <div>
+            <label>Addition</label>
+            <input id="add1" type="text" name="input">
+            <label>+</label>
+            <input id="add2" type="text" name="input">
+            <label>=</label>
+            <input id="sum" type="text" name="input">
+            <button onclickc ="let result = calc(document.getElementById('add1').value,
+             document.getElementById('add2').ariaValueNow);
+              document.getElementById('sum').value = result;" >ADD</button>
+        </div>
+        <br>
+        
+        <div>
+            <label>Subtraction</label>
+            <input id="sub1" type="text" name="input">
+            <label>-</label>
+            <input id="sub2" type="text" name="input">
+            <label>=</label>
+            <input id="sum1" type="text" name="input">
+            <button onclick="subtractNumbers()">SUB</button>
+        </div>
+        <br>
+        
+        <div>
+            <label>Multiplication</label>
+            <input id="mul1" type="text" name="input">
+            <label>*</label>
+            <input id="mul2" type="text" name="input">
+            <label>=</label>
+            <input id="sum2" type="text" name="input">
+            <button onclick="multiplyNumbers()">MUL</button>
+        </div>
+        <br>
+        
+        <div>
+            <label>Division</label>
+            <input id="div1" type="text" name="input">
+            <label>/</label>
+            <input id="div2" type="text" name="input">
+            <label>=</label>
+            <input id="sum3" type="text" name="input">
+            <button onclick="divideNumbers()">DIV</button>
+        </div>
+
+        
+</body>
+</html>
